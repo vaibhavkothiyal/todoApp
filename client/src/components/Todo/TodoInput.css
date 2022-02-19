@@ -1,0 +1,50 @@
+.task-input-container{
+    width: 50%;
+    margin: auto;
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+.task-title{
+    width: 30%;
+    padding: 6px 2px;
+    border-radius: 5px;
+    border: 1.6px solid rgb(42, 85, 134);
+}
+
+.task-desc{
+    width: 70%;
+    border-radius: 5px;
+    border: 1.6px solid rgb(42, 85, 134);
+}
+
+.add-todo-btn{
+    width: 30%;
+    padding: 10px 0;
+    border-radius: 8px;
+    border: none;
+    background-color: tomato;
+    color: rgb(72, 102, 141);
+    font-weight: 700;
+    font-size: 20px;
+    border: 1px solid rgb(245, 232, 208);
+}
+.add-todo-btn:hover{
+    color: rgb(52, 52, 82);
+    cursor: pointer;
+    border: 1px solid rgb(39, 39, 63);
+}
+.todo-add-success-container{
+    width: 20%;
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+}
+.todo-add-success{
+    background-color: cornflowerblue;
+    padding: 6px 20px;
+    border-radius: 5px;
+}

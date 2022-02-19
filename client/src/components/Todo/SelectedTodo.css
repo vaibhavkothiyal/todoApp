@@ -1,0 +1,85 @@
+
+.container{
+    width: 40%;
+    margin: 20px auto;
+    background-color: rgb(211, 198, 174);
+    padding: 20px;
+}
+
+.title-status-delete-container{
+    display: flex;
+    justify-content: space-between;
+}
+.title-del-parent{
+    display: flex;
+}
+.status-toggle{
+    display: flex;
+}
+
+.toogle-status{
+    margin-left: 5px;
+    display: inline-block;
+}
+
+.toggle {
+    position : relative ;
+    display : inline-block;
+    width : 60px;
+    height : 20px;
+    background-color: red;
+    border-radius: 30px;
+    border: 2px solid gray;
+}
+        
+.toggle:after {
+    content: '';
+    position: absolute;
+    width: 30px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: gray;
+    left: 1px;
+    transition:  all 0.5s;
+}
+        
+
+.checkbox:checked + .toggle::after {
+    left : 30px; 
+}
+        
+.checkbox:checked + .toggle {
+    background-color: green;
+}
+        
+.checkbox { 
+    display : none;
+}
+
+.t-s-d-title{
+    color: rgb(24, 56, 104);
+    font-size: 24px;
+    font-weight: 700;
+    margin-right: 5px;
+}
+.t-s-d-delete-btn{
+    color: rgb(76, 76, 107);
+}
+.t-s-d-delete-btn:hover{
+    color: red;
+    cursor: pointer;
+}
+.t-s-description{
+    margin-top: 20px;
+}
+.t-s-description>div{
+    display: inline-block;
+}
+.t-s-d-edit{
+    margin-right: 5px;
+    color: rgb(76, 76, 107);
+}
+.t-s-d-edit:hover{
+    color: green;
+    cursor: pointer;
+}

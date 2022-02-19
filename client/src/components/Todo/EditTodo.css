@@ -1,0 +1,52 @@
+.edit-todo-des-parent{
+    width: 40%;
+    margin: 30px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.update-desc-btn{
+    padding: 10px;
+    border-radius: 8px;
+    background-color: tomato;
+    color: rgb(245, 228, 224);
+    font-weight: 700;
+    font-size: 20px;
+    border: 1px solid rgb(245, 232, 208);
+}
+.update-desc-btn:hover{
+    color: rgb(52, 52, 82);
+    cursor: pointer;
+    border: 1px solid rgb(39, 39, 63);
+}
+.edit-desc-title{
+    width: 60%;
+    text-align: center;
+    font-size: x-large;
+    font-weight: 700;
+    color: rgb(4, 65, 17);
+}
+.edit-desc-inp{
+    width: 90%;
+}
+.edit-inp-box{
+    width: 100%;
+    padding: 4px;
+}
+.edit-desc-btn{
+    width: 30%;
+    display: grid;
+}
+.des-update-succ-msg-container{
+    width: 30%;
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+}
+.des-update-succ-msg{
+    background-color: cornflowerblue;
+    padding: 6px 20px;
+    border-radius: 5px;
+}

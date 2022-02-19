@@ -1,0 +1,111 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.no-task-aval{
+    width: 15%;
+    margin: 80px auto;
+    display: flex;
+    justify-content: space-between;
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.list-parent{
+    width: 60%;
+    margin: 20px auto;
+}
+.disp-heading{
+    text-align: center;
+    color: indigo;
+}
+.addItems{
+    width: 400px;
+    margin: auto;
+}
+
+.todo-Heading{
+    color: rgb(121, 84, 121);
+    text-align: center;
+}
+
+.todoList-display-container{
+    margin-top: 15px;
+}
+.todoDivContainer{
+    background-color: rgb(67, 64, 100);
+    width: 60%;
+    margin: 3px auto;
+    padding: 12px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.todoDivContainer:hover{
+    background-color: rgb(86, 84, 119);
+}
+
+.topDiv>div{
+    display: inline-block;
+}
+.inp-desc{
+    margin-top: 3px;
+    padding: 2px;
+}
+
+.mark-compl-btn{
+    margin-right: 10px;
+}
+.statusDiv{
+    margin-left: 40px;
+}
+.desp-Div{
+    position: relative;
+    float: right;
+    margin-right: 10px;
+}
+
+.title{
+    display: inline;
+    color: rgb(236, 245, 194);
+    background-color: rgb(88, 109, 66);
+    padding: 6px;
+    border-radius: 5px;
+}
+.status{
+    text-align: right;
+    display: inline;
+    color: rgb(107, 139, 151);
+}
+
+.description{
+    margin-top: 10px;
+    color: rgb(194, 204, 203);
+}
+
+.login-redirect{
+    width: 15%;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-between;
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.login-redirect{
+    width: 15%;
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+    font-size: 28px;
+    font-weight: 700;
+    gap: 8px;
+}
+
+
+
+@media only screen and (max-width: 1250px) {
+    .login-redirect{
+        width: 60%;
+    }
+  }

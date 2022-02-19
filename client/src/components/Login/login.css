@@ -1,0 +1,44 @@
+.user-login-container{
+    width: 40%;
+    margin: 30px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 14px;
+}
+.user-email{
+    padding: 5px;
+    border-radius: 5px;
+    width: 45%;
+}
+.user-password{
+    padding: 5px;
+    border-radius: 5px;
+    width: 45%;
+}
+.user-login-btn{
+    width: 30%;
+    padding: 8px 10px;
+    border-radius: 8px;
+    background-color: tomato;
+    color: rgb(245, 228, 224);
+    font-weight: 700;
+    font-size: 20px;
+    border: 1px solid rgb(245, 232, 208);
+}
+.user-login-btn:hover{
+    color: rgb(52, 52, 82);
+    cursor: pointer;
+    border: 1px solid rgb(39, 39, 63);
+}
+.user-login-heading{
+    color: rgb(88, 35, 35);
+}
+.register-redirect{
+    color: rgb(52, 52, 82);
+    font-weight: 600;
+}
+.register-redirect:hover{
+    cursor: pointer;
+    color: rgb(84, 84, 151);
+}
