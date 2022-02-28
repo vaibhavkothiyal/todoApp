@@ -1,4 +1,4 @@
-# Pluralsight (Clone)
+# Todo App
 -----
 ### Todo App using React
 
