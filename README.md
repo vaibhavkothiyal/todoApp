@@ -7,6 +7,7 @@ Link https://vk-todo.herokuapp.com/
 
 # Technology Stack Used 🌟
 * React
+* Redux
 * Express
 
 used mongoDb cloud for storing data
