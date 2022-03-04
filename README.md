@@ -16,31 +16,31 @@ used mongoDb cloud for storing data
 # Snapshots 📷
 * Landing page 
 
-![Landing page (Home page)](https://www.linkpicture.com/q/Screenshot-25_9.png)
+![Landing page (Home page)](https://www.linkpicture.com/q/landing.png)
 
 * Login Page
 
-![Courses page](https://www.linkpicture.com/q/Screenshot-26_8.png)
+![Courses page](https://www.linkpicture.com/q/login_6.png)
 
 * Register Page
 
-![Plans and Pricing page](https://www.linkpicture.com/q/Screenshot-45_1.png)
+![Plans and Pricing page](https://www.linkpicture.com/q/register_2.png)
 
 * Add Todo Page
 
-![Events page](https://www.linkpicture.com/q/Screenshot-54_4.png)
+![Events page](https://www.linkpicture.com/q/add_2.png)
 
 * Todo Home
 
-![Sign-in page](https://www.linkpicture.com/q/Screenshot-70.png)
+![Sign-in page](https://www.linkpicture.com/q/dashboard_6.png)
 
 * Todo Display
 
-![Sign-up page](https://www.linkpicture.com/q/Screenshot-71_8.png)
+![Sign-up page](https://www.linkpicture.com/q/edit_1.png)
 
-* Add Todo
+* Update Todo
 
-![Checkout page](https://www.linkpicture.com/q/Screenshot-72_9.png)
+![Checkout page](https://www.linkpicture.com/q/update-2.png)
 
 
 
