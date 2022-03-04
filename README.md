@@ -9,6 +9,7 @@ Link https://vk-todo.herokuapp.com/
 * React
 * Redux
 * Express
+* Mongoose
 
 used mongoDb cloud for storing data
 
